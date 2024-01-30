@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player {
+
+    width: 440px;
+    height: 550px;
+    margin-top: 10px;
+    background-color: black;
+
+}
+
+.foto {
+
+    width: 330px;
+    height: 330px;
+
+}
+
+.text {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    flex-direction: column;
+
+}
+
+.btns {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
