@@ -1,0 +1,81 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body {
+
+    height: 100vh;
+    background-color: #141414;
+
+}
+
+.header{
+
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.titulo{
+
+    display: flex;
+    align-items: center;
+    height: 150px;
+    margin-left: 20px;
+
+}
+
+.rowMusicas-1{
+
+    display: flex;
+
+}
+
+.sideMenu{
+
+    height: 100vh;
+    width: 300px;
+    background-color: #222222;
+
+}
+
+.images{
+
+    width: 200px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.row-1 {
+
+    display: flex;
+    margin-top: 20px;
+    color: aliceblue;
+
+}
+
+.musicas{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+
+.musicas p {
+
+    margin-top: 10px;
+
+}
