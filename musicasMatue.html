@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matue</title>
+    <link rel="stylesheet" href="./css/musicaFelipeRet.style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    
+
+    <div class="player">
+
+        <div class="foto">
+            <img src="" alt="" id="fotoAlbum">
+        </div>
+
+        <div class="text">
+            <p id="nomeAutor">Teste 1</p>
+            <p id="nomeMusica">Teste 1</p>
+        </div>
+
+        
+
+        <div class="progress">
+                <div id="progressBarContainer">
+                <div id="progressBar"></div>
+            </div>
+            <div id="duracao"></div>
+        </div>    
+
+        <div class="btns">
+
+            <audio src="./musicas/matue/1.mp3" id="musica"></audio>
+
+            <button class="bi bi-skip-backward" id="btnVoltar"></button>
+            <button class="bi bi-play-fill" id="btnPlay"></button>
+            <button class="bi bi-skip-forward" id="btnAvancar"></button>
+
+        </div>
+
+    </div>
+
+<script src="./js/player.musicasMatue.js"></script>
+</body>
+</html>
